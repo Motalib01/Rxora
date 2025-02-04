@@ -39,18 +39,18 @@ namespace Appointment.Core.Repositores
             return await _dbSet.ToListAsync();
         }
 
-        public async Task<T> GetAsync(Guid id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
            var entity = await _dbSet.FindAsync(id);
            return entity; 
 
         }
 
-        public async Task<T> UpdateAsync(Guid id)
+        public async Task<T> UpdateAsync(T entity)
         {
-            var entity = await _dbSet.FindAsync(id);
-            _dbSet.Remove(entity);
-            _context.SaveChanges();
+            _dbSet.Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
             return entity;
 
         }

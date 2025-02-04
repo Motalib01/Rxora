@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment", "Appointment"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Core", "Appointment.Core\Appointment.Core.csproj", "{0DA2009D-7A73-4974-8070-35CCDB32B6CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Api", "Appointment.Api\Appointment.Api.csproj", "{D79AF62F-A1F0-43C3-8A5B-31A058B5923E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{0DA2009D-7A73-4974-8070-35CCDB32B6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA2009D-7A73-4974-8070-35CCDB32B6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA2009D-7A73-4974-8070-35CCDB32B6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79AF62F-A1F0-43C3-8A5B-31A058B5923E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79AF62F-A1F0-43C3-8A5B-31A058B5923E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79AF62F-A1F0-43C3-8A5B-31A058B5923E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79AF62F-A1F0-43C3-8A5B-31A058B5923E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 		{E2FEB970-18E9-4096-B863-82F39862C7EA} = {81639DDF-6536-4FCC-BF0B-481A4DC9103D}
 		{D60DB853-0BAC-449F-BD44-77F90D831783} = {81639DDF-6536-4FCC-BF0B-481A4DC9103D}
 		{0DA2009D-7A73-4974-8070-35CCDB32B6CC} = {C056554D-BE4D-4EED-90B2-C56FDA0E0B33}
+		{D79AF62F-A1F0-43C3-8A5B-31A058B5923E} = {C056554D-BE4D-4EED-90B2-C56FDA0E0B33}
 	EndGlobalSection
 EndGlobal

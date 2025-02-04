@@ -13,6 +13,7 @@ namespace Appointment.Core.Data
         public AppointmentDBContext(DbContextOptions<AppointmentDBContext> options) : base(options)
         {
         }
+        
         public DbSet<DoctorAvailability> DoctorAvailabilities { get; set; }
         public DbSet<Models.Appointment> Appointments { get; set; }
     }
